@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <CheckedTextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -6,15 +7,21 @@
 
     android:id="@android:id/text1"
     style="?android:attr/spinnerDropDownItemStyle"
-    android:ellipsize="marquee"
+
+    android:singleLine="true"
     android:text="@string/label_error_text"
     android:textColor="@color/black"
+
     android:textSize="30sp"
     android:background="@drawable/color_selector"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
 
+
+
     android:maxLines="1"/>
+
+
 
 
 
